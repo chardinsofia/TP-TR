@@ -3,10 +3,10 @@
     "main": {
       "type": "main-list-collections",
       "settings": {
-        "title": "Collections",
+        "title": "Custom collections",
         "sort": "alphabetical",
-        "image_ratio": "square",
-        "columns_desktop": 3,
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
         "columns_mobile": "2"
       }
     }
