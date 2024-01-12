@@ -1,6 +1,6 @@
 .card__content,
 .card--standard.card--media .card__inner .card__information .card__caption {
-  display: none;
+  display: none !important;
 }
 
 .card--standard.card--media .card__inner .card__information,
@@ -17,7 +17,6 @@
 
 .card--standard.card--media .card__inner .card__information .card__heading {
   font-family: Montserrat;
-  font-size: 12px;
   font-weight: 700;
   line-height: 15px;
   font-weight: 700;
@@ -29,19 +28,15 @@
 
 .collection-list-title {
   margin-bottom: 0px;
-  font-size: 20px;
   line-height: 27px;
   font-weight: 700;
   letter-spacing: 0em;
-  text-align: left;
 }
 
 .collection-list-subtitle {
   font-family: Montserrat;
-  font-size: 12px;
   line-height: 15px;
   font-weight: 400;
   letter-spacing: 0em;
-  text-align: left;
   margin-top: 0px;
 }
