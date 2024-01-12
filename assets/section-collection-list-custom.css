@@ -41,6 +41,10 @@
   margin-top: 0px;
 }
 
+.border-radius--0 {
+  border-radius: 0px;
+}
+
 .border-radius--1 {
   border-radius: 1px;
 }
