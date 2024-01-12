@@ -40,7 +40,9 @@
   letter-spacing: 0em;
   margin-top: 0px;
 }
-
+.card .card__inner {
+  background: transparent;
+}
 .card .card__inner .card__media.border-radius--0 {
   border-radius: 0px;
 }
