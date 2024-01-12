@@ -1,21 +1,21 @@
-.card-wrapper .card__content,
-.card--standard.card--media .card__inner .card__information .card__caption {
+.custom-collection-list .card-wrapper .card__content,
+.custom-collection-list .card--standard.card--media .card__inner .card__information .card__caption {
   display: none !important;
 }
 
-.card--standard.card--media .card__inner .card__information,
-.card--standard.card--media .card__inner .card__information .card__heading,
-.card__inner .card__content {
+.custom-collection-list .card--standard.card--media .card__inner .card__information,
+.custom-collection-list .card--standard.card--media .card__inner .card__information .card__heading,
+.custom-collection-list .card__inner .card__content {
   display: block !important;
 }
 
-.card__inner .card__content {
+.custom-collection-list .card__inner .card__content {
   display: flex !important;
   flex-direction: column;
   justify-content: flex-end;
 }
 
-.card--standard.card--media .card__inner .card__information .card__heading {
+.custom-collection-list .card--standard.card--media .card__inner .card__information .card__heading {
   font-family: Montserrat;
   font-weight: 700;
   line-height: 15px;
@@ -26,104 +26,104 @@
   text-align: left;
 }
 
-.collection-list-title {
+.custom-collection-list .collection-list-title {
   margin-bottom: 0px;
   line-height: 27px;
   font-weight: 700;
   letter-spacing: 0em;
 }
 
-.collection-list-subtitle {
+.custom-collection-list .collection-list-subtitle {
   font-family: Montserrat;
   line-height: 15px;
   font-weight: 400;
   letter-spacing: 0em;
   margin-top: 0px;
 }
-.card .card__inner {
+.custom-collection-list .card .card__inner {
   background: transparent;
 }
-.card .card__inner .card__media.border-radius--0 {
+.custom-collection-list .card .card__inner .card__media.border-radius--0 {
   border-radius: 0px;
 }
 
-.card .card__inner .card__media.border-radius--1 {
+.custom-collection-list .card .card__inner .card__media.border-radius--1 {
   border-radius: 1px;
 }
 
-.card .card__inner .card__media.border-radius--2 {
+.custom-collection-list .card .card__inner .card__media.border-radius--2 {
   border-radius: 2px;
 }
 
-.card .card__inner .card__media.border-radius--3 {
+.custom-collection-list .card .card__inner .card__media.border-radius--3 {
   border-radius: 3px;
 }
 
-.card .card__inner .card__media.border-radius--4 {
+.custom-collection-list .card .card__inner .card__media.border-radius--4 {
   border-radius: 4px;
 }
 
-.card .card__inner .card__media.border-radius--5 {
+.custom-collection-list .card .card__inner .card__media.border-radius--5 {
   border-radius: 5px;
 }
 
-.card .card__inner .card__media.border-radius--6 {
+.custom-collection-list .card .card__inner .card__media.border-radius--6 {
   border-radius: 6px;
 }
 
-.card .card__inner .card__media.border-radius--7 {
+.custom-collection-list .card .card__inner .card__media.border-radius--7 {
   border-radius: 7px;
 }
 
-.card .card__inner .card__media.border-radius--8 {
+.custom-collection-list .card .card__inner .card__media.border-radius--8 {
   border-radius: 8px;
 }
 
-.card .card__inner .card__media.border-radius--9 {
+.custom-collection-list .card .card__inner .card__media.border-radius--9 {
   border-radius: 9px;
 }
 
-.card .card__inner .card__media.border-radius--10 {
+.custom-collection-list .card .card__inner .card__media.border-radius--10 {
   border-radius: 10px;
 }
 
-.card .card__inner .card__media.border-radius--11 {
+.custom-collection-list .card .card__inner .card__media.border-radius--11 {
   border-radius: 11px;
 }
 
-.card .card__inner .card__media.border-radius--12 {
+.custom-collection-list .card .card__inner .card__media.border-radius--12 {
   border-radius: 12px;
 }
 
-.card .card__inner .card__media.border-radius--13 {
+.custom-collection-list .card .card__inner .card__media.border-radius--13 {
   border-radius: 13px;
 }
 
-.card .card__inner .card__media.border-radius--14 {
+.custom-collection-list .card .card__inner .card__media.border-radius--14 {
   border-radius: 14px;
 }
 
-.card .card__inner .card__media.border-radius--15 {
+.custom-collection-list .card .card__inner .card__media.border-radius--15 {
   border-radius: 15px;
 }
 
-.card .card__inner .card__media.border-radius--16 {
+.custom-collection-list .card .card__inner .card__media.border-radius--16 {
   border-radius: 16px;
 }
 
-.card .card__inner .card__media.border-radius--17 {
+.custom-collection-list .card .card__inner .card__media.border-radius--17 {
   border-radius: 17px;
 }
 
-.card .card__inner .card__media.border-radius--18 {
+.custom-collection-list .card .card__inner .card__media.border-radius--18 {
   border-radius: 18px;
 }
 
-.card .card__inner .card__media.border-radius--19 {
+.custom-collection-list .card .card__inner .card__media.border-radius--19 {
   border-radius: 19px;
 }
 
-.card .card__inner .card__media.border-radius--20 {
+.custom-collection-list .card .card__inner .card__media.border-radius--20 {
   border-radius: 20px;
 }
 
