@@ -41,87 +41,87 @@
   margin-top: 0px;
 }
 
-.card__media.border-radius--0 {
+.card .card__inner .card__media.border-radius--0 {
   border-radius: 0px;
 }
 
-.card__media.border-radius--1 {
+.card .card__inner .card__media.border-radius--1 {
   border-radius: 1px;
 }
 
-.card__media.border-radius--2 {
+.card .card__inner .card__media.border-radius--2 {
   border-radius: 2px;
 }
 
-.card__media.border-radius--3 {
+.card .card__inner .card__media.border-radius--3 {
   border-radius: 3px;
 }
 
-.card__media.border-radius--4 {
+.card .card__inner .card__media.border-radius--4 {
   border-radius: 4px;
 }
 
-.card__media.border-radius--5 {
+.card .card__inner .card__media.border-radius--5 {
   border-radius: 5px;
 }
 
-.card__media.border-radius--6 {
+.card .card__inner .card__media.border-radius--6 {
   border-radius: 6px;
 }
 
-.card__media.border-radius--7 {
+.card .card__inner .card__media.border-radius--7 {
   border-radius: 7px;
 }
 
-.card__media.border-radius--8 {
+.card .card__inner .card__media.border-radius--8 {
   border-radius: 8px;
 }
 
-.card__media.border-radius--9 {
+.card .card__inner .card__media.border-radius--9 {
   border-radius: 9px;
 }
 
-.card__media.border-radius--10 {
+.card .card__inner .card__media.border-radius--10 {
   border-radius: 10px;
 }
 
-.card__media.border-radius--11 {
+.card .card__inner .card__media.border-radius--11 {
   border-radius: 11px;
 }
 
-.card__media.border-radius--12 {
+.card .card__inner .card__media.border-radius--12 {
   border-radius: 12px;
 }
 
-.card__media.border-radius--13 {
+.card .card__inner .card__media.border-radius--13 {
   border-radius: 13px;
 }
 
-.card__media.border-radius--14 {
+.card .card__inner .card__media.border-radius--14 {
   border-radius: 14px;
 }
 
-.card__media.border-radius--15 {
+.card .card__inner .card__media.border-radius--15 {
   border-radius: 15px;
 }
 
-.card__media.border-radius--16 {
+.card .card__inner .card__media.border-radius--16 {
   border-radius: 16px;
 }
 
-.card__media.border-radius--17 {
+.card .card__inner .card__media.border-radius--17 {
   border-radius: 17px;
 }
 
-.card__media.border-radius--18 {
+.card .card__inner .card__media.border-radius--18 {
   border-radius: 18px;
 }
 
-.card__media.border-radius--19 {
+.card .card__inner .card__media.border-radius--19 {
   border-radius: 19px;
 }
 
-.card__media.border-radius--20 {
+.card .card__inner .card__media.border-radius--20 {
   border-radius: 20px;
 }
 
