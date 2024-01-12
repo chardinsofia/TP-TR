@@ -1877,7 +1877,7 @@
           "info": "Add images by editing your collections. [Learn more](https:\/\/help.shopify.com\/manual\/products\/collections)"
         },
         "image_border_radius": {
-          "label": "Border Radius"
+          "label": "Image border radius"
         },
         "columns_desktop": {
           "label": "Number of columns on desktop"
