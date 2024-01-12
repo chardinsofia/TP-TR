@@ -666,6 +666,9 @@
         },
         "swipe_on_mobile": {
           "label": "Enable swipe on mobile"
+        },
+        "swipe": {
+          "label": "Enable swipe"
         }
       },
       "blocks": {
