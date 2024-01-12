@@ -52,7 +52,7 @@
       <div class="subtitle-wrapper-with-link{% if show_mobile_slider %} subtitle-wrapper--self-padded-tablet-down{% else %} subtitle-wrapper--self-padded-mobile{% endif %} subtitle-wrapper--no-top-margin">
         <h4
           id="SectionSubheading-{{ section.id }}"
-          class="collection-list-subtitle inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+          class="collection-list-subtitle inline-richtext {{ section.settings.subheading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
         >
           {{ section.settings.subtitle }}
         </h4>
@@ -171,6 +171,26 @@
         },
         {
           "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        }
+      ],
+      "default": "h0",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "select",
+      "id": "subeading_size",
+      "options": [
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "p",
           "label": "t:sections.all.heading_size.options__3.label"
         }
       ],
