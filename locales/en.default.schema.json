@@ -613,7 +613,7 @@
           "label": "Heading"
         },
         "subtitle": {
-          "label": "Subheading"
+          "label": "Heading"
         },
         "image_ratio": {
           "label": "Image ratio",
@@ -627,6 +627,9 @@
             "label": "Square"
           },
           "info": "Add images by editing your collections. [Learn more](https:\/\/help.shopify.com\/manual\/products\/collections)"
+        },
+        "image_border_radius": {
+          "label": "Image border radius"
         },
         "columns_desktop": {
           "label": "Number of columns on desktop"
