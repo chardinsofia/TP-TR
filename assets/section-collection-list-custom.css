@@ -12,6 +12,54 @@ TODO:
 
 */
 
+/* Font */
+.custom-collection-list .card--standard.card--media .card__inner .card__information .card__heading {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.collection-list-title {
+  font-family: Playfair Display;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.collection-list-subtitle {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@media screen and (min-width: 990px) {
+  .custom-collection-list .card--standard.card--media .card__inner .card__information .card__heading {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+  }
+
+  .collection-list-title {
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 52px;
+  }
+
+  .collection-list-subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+}
+
 /* Page width */
 
 .page-width, .page-width-desktop {
