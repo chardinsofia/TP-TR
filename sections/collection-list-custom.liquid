@@ -16,13 +16,6 @@
     }
   }
 
-  
-  @media screen and (max-width: 990px) {
-    .custom-collection-list .card {
-      --ratio-percent: %;
-    }
-  }
-
 {%- endstyle -%}
 
 {%- liquid
@@ -80,6 +73,32 @@
           endif
         -%}
         {%- for block in section.blocks -%}
+          {%- liquid
+            assign columns_mobile_int = section.settings.columns_mobile | plus: 0
+            assign show_mobile_slider = false
+            if section.settings.swipe == 'swipe_on_mobile' and section.blocks.size > columns_mobile_int
+              assign show_mobile_slider = true
+            endif
+            
+            assign ratio = 1
+            if section.settings.image_ratio_mobile == 'portrait'
+              assign ratio = 0.8
+            elsif section.settings.image_ratio_mobile == 'adapt'
+              assign ratio = block.settings.collection.featured_image.aspect_ratio
+            endif
+            if ratio == 0 or ratio == null
+              assign ratio = 1
+            endif
+          -%}
+          
+          {%- style -%}
+            @media screen and (max-width: 990px) {
+              .custom-collection-list .card {
+                --ratio-percent: {{ 1 | divided_by: 0.8 | times: 100 }}%;
+              }
+            }
+          {%- endstyle -%}
+                    
           <li
             id="Slide-{{ section.id }}-{{ forloop.index }}"
             class="collection-list__item grid__item{% if show_mobile_slider %} slider__slide{% endif %}{% if block.settings.collection.featured_image == nil %} collection-list__item--no-media{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
