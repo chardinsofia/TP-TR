@@ -19,7 +19,7 @@
 {%- style -%}
 @media screen and (max-width: 990px) {
   .ratio-mobile-adapt, .ratio-mobile-adapt .card__inner {
-    --ratio-percent: {{ 1 | divided_by: card_collection.featured_image.aspect_ratio | times: 100 }}% !important;
+    --ratio-percent: {{ 1 | divided_by: card_collection.featured_image.aspect_ratio_mobile | times: 100 }}% !important;
   }
 }
 
