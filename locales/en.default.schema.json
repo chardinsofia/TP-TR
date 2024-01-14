@@ -631,7 +631,7 @@
           "label": "Heading"
         },
         "image_ratio": {
-          "label": "Image ratio",
+          "label": "Image ratio on desktop",
           "options__1": {
             "label": "Adapt to image"
           },
@@ -644,7 +644,7 @@
           "info": "Add images by editing your collections. [Learn more](https:\/\/help.shopify.com\/manual\/products\/collections)"
         },
         "image_border_radius": {
-          "label": "Image border radius"
+          "label": "Image border radius on desktop"
         },
         "columns_desktop": {
           "label": "Number of columns on desktop"
@@ -665,7 +665,7 @@
           }
         },
         "image_ratio_mobile": {
-          "label": "Image ratio",
+          "label": "Image ratio on mobile",
           "options__1": {
             "label": "Adapt to image"
           },
