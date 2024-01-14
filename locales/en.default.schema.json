@@ -664,6 +664,9 @@
             "label": "2 columns"
           }
         },
+        "header_slider": {
+          "content": "Slider"
+        },
         "swipe": {
           "label": "Swipe",
           "options__1": {
@@ -842,9 +845,6 @@
           "options__2": {
             "label": "2 columns"
           }
-        },
-        "header_slider": {
-          "content": "Slider"
         },
         "swipe_on_mobile": {
           "label": "Enable swipe on mobile"
