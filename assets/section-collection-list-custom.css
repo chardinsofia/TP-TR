@@ -288,7 +288,7 @@
 /* Columns size on desktop */
 
 @media screen and (min-width: 990px) {
-  .grid--3-col-desktop .grid__item {
+  .grid--5-col-desktop .grid__item {
     width: calc((100% - var(--desktop-margin-left-first-item)) / 5 - var(--grid-desktop-horizontal-spacing) * 2);
   }
   
@@ -297,7 +297,7 @@
   }
   
   .grid--3-col-desktop .grid__item {
-    width: calc((100% - var(--desktop-margin-left-first-item)) / 3 - var(--grid-desktop-horizontal-spacing) * 4);
+    width: calc((100% - var(--desktop-margin-left-first-item)) / 3 - var(--grid-desktop-horizontal-spacing) * 12);
   }
   
   .grid--2-col-desktop .grid__item {
