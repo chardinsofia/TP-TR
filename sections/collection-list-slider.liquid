@@ -94,7 +94,7 @@
           </li>
         {%- endfor -%}
       </ul>
-      {%- if show_mobile_slider or section.settings.swipe == 'swipe_everywhere' and section.settings.hide_buttons_slider == false -%}
+      {%- if section.settings.swipe != 'swipe_off' and section.settings.hide_buttons_slider == false -%}
         <div class="slider-buttons no-js-hidden">
           <button
             type="button"
