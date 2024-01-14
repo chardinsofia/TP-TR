@@ -1,22 +1,22 @@
 
 @media screen and (min-width: 990px) {
-  .slider--desktop.grid--5-col-desktop .grid__item {
+  .grid--3-col-desktop .grid__item {
     width: calc((100% - var(--desktop-margin-left-first-item)) / 5 -  (100% - var(--desktop-margin-left-first-item)) / 3) - var(--grid-desktop-horizontal-spacing) * 2);
   }
   
-  .slider--desktop.grid--4-col-desktop .grid__item {
+  .grid--4-col-desktop .grid__item {
     width: calc((100% - var(--desktop-margin-left-first-item)) / 4 - (100% - var(--desktop-margin-left-first-item)) / 3) - var(--grid-desktop-horizontal-spacing) * 3);
   }
   
-  .slider--desktop.grid--3-col-desktop .grid__item {
+  .grid--3-col-desktop .grid__item {
     width: calc((100% - var(--desktop-margin-left-first-item)) / 3 - (100% - var(--desktop-margin-left-first-item)) / 3) - var(--grid-desktop-horizontal-spacing) * 4);
   }
   
-  .slider--desktop.grid--2-col-desktop .grid__item {
+  .grid--2-col-desktop .grid__item {
     width: calc((100% - var(--desktop-margin-left-first-item)) / 2 - (100% - var(--desktop-margin-left-first-item)) / 3) - var(--grid-desktop-horizontal-spacing) * 5);
   }
   
-  .slider--desktop.grid--1-col-desktop .grid__item {
+  .grid--1-col-desktop .grid__item {
     width: calc((100% - var(--desktop-margin-left-first-item)) - var(--grid-desktop-horizontal-spacing) * 9);
   }
 }
