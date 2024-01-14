@@ -669,6 +669,9 @@
         },
         "swipe": {
           "label": "Enable swipe"
+        },
+        "show_buttons_slider": {
+          "label": "Show slider buttons"
         }
       },
       "blocks": {
