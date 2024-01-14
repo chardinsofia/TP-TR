@@ -51,12 +51,12 @@
     {%- endunless -%}
     {%- unless section.settings.subtitle == blank -%}
       <div class="subtitle-wrapper-with-link{% if show_slider %} subtitle-wrapper--self-padded-tablet-down{% else %} subtitle-wrapper--self-padded-mobile{% endif %} subtitle-wrapper--no-top-margin">
-        <h4
+        <p
           id="SectionSubheading-{{ section.id }}"
           class="collection-list-subtitle inline-richtext {{ section.settings.subheading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
         >
           {{ section.settings.subtitle }}
-        </h4>
+        </p>
       </div>
     {%- endunless -%}
 
