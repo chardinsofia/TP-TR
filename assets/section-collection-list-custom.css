@@ -41,7 +41,10 @@ TODO:
 }
 
 @media screen and (max-width: 990px) {
-  .title-wrapper-with-link, .subtitle-wrapper-with-link {
+  .title-wrapper-with-link {
+    margin-bottom: 2px;
+  }
+  .subtitle-wrapper-with-link {
     margin-bottom: 10px;
   }
 }
