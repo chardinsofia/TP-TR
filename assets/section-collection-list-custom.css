@@ -110,14 +110,6 @@ TODO:
 }
 
 /* component-subtitle */
-.subtitle,
-.subtitle-wrapper-with-link {
-  margin: 3rem 0 2rem;
-}
-
-.subtitle-wrapper-with-link .title {
-  margin: 0;
-}
 
 .subtitle .link {
   font-size: inherit;
