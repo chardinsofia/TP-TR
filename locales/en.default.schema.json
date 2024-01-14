@@ -665,7 +665,10 @@
           }
         },
         "swipe": {
-          "label": "Slider options"
+          "label": "Slider options",
+          "options__1": "Off",
+          "options__2": "On mobile",
+          "options__3": "Everywhere"
         },
         "swipe_on_mobile": {
           "label": "Enable swipe only on mobile"
