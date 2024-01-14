@@ -666,9 +666,15 @@
         },
         "swipe": {
           "label": "Swipe",
-          "options__1": "Off",
-          "options__2": "On mobile",
-          "options__3": "Everywhere"
+          "options__1": {
+            "label": "Off"
+          },
+          "options__2": {
+            "label": "Mobile"
+          },
+          "options__3": {
+            "label": "Everywhere"
+          }
         },
         "swipe_on_mobile": {
           "label": "Enable swipe only on mobile"
