@@ -664,6 +664,9 @@
             "label": "2 columns"
           }
         },
+        "swipe": {
+          "label": "Slider options"
+        },
         "swipe_on_mobile": {
           "label": "Enable swipe only on mobile"
         },
