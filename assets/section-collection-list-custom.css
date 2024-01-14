@@ -29,6 +29,11 @@
   text-align: left;
 }
 
+.title-wrapper-with-link, .subtitle-wrapper-with-link, .section-collection-list .collection-list:not(.slider) {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
 @media screen and (max-width: 990px) {
   .title, .title-wrapper-with-link {
     margin: 0;
@@ -69,6 +74,13 @@
 .page-width, .page-width-desktop {
   max-width: 100%;
 }
+
+.collection-list-wrapper {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
 
 /* Display only inner card information */
 
