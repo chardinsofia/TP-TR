@@ -46,8 +46,8 @@
         "image_border_radius_mobile": 8,
         "swipe": "swipe_off",
         "hide_buttons_slider": true,
-        "padding_top": 60,
-        "padding_bottom": 60
+        "padding_top": 32,
+        "padding_bottom": 32
       }
     },
     "collection_list_custom_ejdLEV": {
@@ -97,7 +97,7 @@
         "swipe": "swipe_everywhere",
         "hide_buttons_slider": true,
         "padding_top": 60,
-        "padding_bottom": 0
+        "padding_bottom": 32
       }
     }
   },
