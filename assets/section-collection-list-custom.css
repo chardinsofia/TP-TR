@@ -97,7 +97,7 @@
 
 @media screen and (min-width: 990px) {
   .custom-collection-list .card--standard.card--media .card__inner .card__information {
-    padding: 30px 40px;
+    padding: 30px 20px;
   }
 }
 
