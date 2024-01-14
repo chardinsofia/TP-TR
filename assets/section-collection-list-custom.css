@@ -14,17 +14,17 @@ TODO:
 
 .custom-collection-list .card-wrapper .card__content,
 .custom-collection-list .card--standard.card--media .card__inner .card__information .card__caption {
-  display: none !important;
+  display: none;
 }
 
 .custom-collection-list .card--standard.card--media .card__inner .card__information,
 .custom-collection-list .card--standard.card--media .card__inner .card__information .card__heading,
 .custom-collection-list .card__inner .card__content {
-  display: block !important;
+  display: block;
 }
 
 .custom-collection-list .card__inner .card__content {
-  display: flex !important;
+  display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
