@@ -187,7 +187,7 @@
   background: transparent;
 }
 
-/* Image border radius */
+/* Image border radius on mobile and desktop */
 @media screen and (max-width: 990px) {
   .custom-collection-list .card .card__inner .card__media.border-radius--0-mobile {
     border-radius: 0px;
@@ -225,6 +225,7 @@
     border-radius: 32px;
   }
 }
+
 @media screen and (min-width: 990px) {
   .custom-collection-list .card .card__inner .card__media.border-radius--0 {
     border-radius: 0px;
