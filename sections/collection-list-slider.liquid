@@ -94,7 +94,7 @@
           </li>
         {%- endfor -%}
       </ul>
-      {%- if show_mobile_slider and section.settings.show_buttons_slider -%}
+      {%- if show_mobile_slider and section.settings.hide_buttons_slider == false -%}
         <div class="slider-buttons no-js-hidden">
           <button
             type="button"
@@ -298,9 +298,9 @@
     },
     {
       "type": "checkbox",
-      "id": "show_buttons_slider",
-      "default": false,
-      "label": "t:sections.collection-list.settings.show_buttons_slider.label"
+      "id": "hide_buttons_slider",
+      "default": true,
+      "label": "t:sections.collection-list.settings.hide_buttons_slider.label"
     },
     {
       "type": "header",
