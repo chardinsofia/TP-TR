@@ -302,7 +302,7 @@
 }
 @media screen and (max-width: 990px) {
   .ratio-mobile-adapt, .ratio-mobile-adapt .card__inner {
-    --ratio-percent: 111.02756892230576% !important;
+    /**/
   }
   .ratio-mobile-square, .ratio-mobile-square .card__inner {
     --ratio-percent: 100% !important;
