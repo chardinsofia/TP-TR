@@ -262,6 +262,13 @@
     border-radius: 32px;
   }
 }
+
+/* */
+@media screen and (max-width: 990px) {
+  .custom-collection-list {
+    padding: 0;
+  }
+}
 /* Columns size on desktop */
 
 @media screen and (min-width: 990px) {
