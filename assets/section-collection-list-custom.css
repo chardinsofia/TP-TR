@@ -146,11 +146,6 @@ TODO:
 }
 
 @media screen and (min-width: 990px) {
-  .subtitle,
-  .subtitle-wrapper-with-link {
-    margin: 5rem 0 3rem;
-  }
-
   .subtitle--primary {
     margin: 2rem 0;
   }
@@ -159,7 +154,7 @@ TODO:
     align-items: center;
   }
 
-  .subtitle-wrapper-with-link .title {
+  .subtitle-wrapper-with-link .subtitle {
     margin-bottom: 0;
   }
 
