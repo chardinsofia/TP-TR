@@ -265,7 +265,7 @@
 
 /* */
 @media screen and (max-width: 990px) {
-  .custom-collection-list {
+  .section-collection-list .collection-list:not(.slider) {
     padding: 0;
   }
 }
