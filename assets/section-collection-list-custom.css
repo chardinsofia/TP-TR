@@ -3,11 +3,11 @@
 TODO: 
 
 1. take action to avoid the use of !important
-2. @media with font-sizes 
+2. create @media with font-sizes, check margins, paddings, empty space and dimensions.
 3. add padding to <p>
-4. activate slider in desktop ___ DONE
-5. hide buttons
-6. review styling and structure
+4. activate slider in desktop ___ DONE using slider__everywhere (CHECK IF CLICKING CAN SLIDE OR ONLY WITH BUTTONS)
+5. hide buttons (ONLY ON MOBILE FOR NOW, CHECK NUMBERS DISPLAY ON DESKTOP)
+6. review styling and structure (MAYBE IS BETTER TO USE JUST ONE CUSTOM SECTION AND PLAY WITH CONTROLS IN THEME CUSTOMIZER, ADD OPTIONS TO IMPLEMENT THIS DESIGNS)
 7. review, select and test theme customizer options.
 
 */
