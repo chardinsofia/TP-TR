@@ -71,12 +71,6 @@
             assign columns = 3
           endif
         -%}
-        {%- liquid
-          assign imageRadio = section.settings.image_ratio
-          if show_mobile_slider
-            assign imageRadio = section.settings.image_ratio_mobile
-          endif
-        -%}
         {%- for block in section.blocks -%}
           <li
             id="Slide-{{ section.id }}-{{ forloop.index }}"
@@ -91,7 +85,7 @@
             {%- assign placeholder_image = 'collection-apparel-' | append: placeholder_image_index -%}
             {% render 'card-collection',
               card_collection: block.settings.collection,
-              media_aspect_ratio: imageRadio,
+              media_aspect_ratio: section.settings.image_ratio,
               columns: columns,
               placeholder_image: placeholder_image,
               border_radius: section.settings.image_border_radius,
