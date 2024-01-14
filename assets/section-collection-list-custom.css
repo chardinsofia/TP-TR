@@ -42,9 +42,15 @@ TODO:
 
 @media screen and (max-width: 990px) {
   .title-wrapper-with-link {
-    margin-bottom: 2px;
+    margin: 0;
   }
   .subtitle-wrapper-with-link {
+    margin: 0;
+  }
+  .collection-list-subtitle {
+    margin-bottom: 2px;
+  }
+  .collection-list-subtitle {
     margin-bottom: 10px;
   }
 }
