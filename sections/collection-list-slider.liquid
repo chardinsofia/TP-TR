@@ -94,7 +94,7 @@
           </li>
         {%- endfor -%}
       </ul>
-      {%- if show_slider -%}
+      {%- if show_slider and show_buttons_slider -%}
         <div class="slider-buttons no-js-hidden">
           <button
             type="button"
@@ -281,6 +281,12 @@
       "id": "swipe",
       "default": true,
       "label": "t:sections.collection-list.settings.swipe.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_buttons_slider",
+      "default": false,
+      "label": "t:sections.collection-list.settings.show_buttons_slider.label"
     },
     {
       "type": "header",
