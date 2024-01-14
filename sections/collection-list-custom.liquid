@@ -94,7 +94,7 @@
           {%- style -%}
             @media screen and (max-width: 990px) {
               .custom-collection-list .card {
-                --ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;
+                --ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}% !important;
               }
             }
           {%- endstyle -%}
