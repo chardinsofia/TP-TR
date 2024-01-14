@@ -297,7 +297,7 @@
   }
   
   .grid--3-col-desktop .grid__item {
-    width: calc((100% - var(--desktop-margin-left-first-item)) / 3 - var(--grid-desktop-horizontal-spacing));
+    width: calc((100% - var(--desktop-margin-left-first-item)) / 3 - var(--grid-desktop-horizontal-spacing) * 2);
   }
   
   .grid--2-col-desktop .grid__item {
