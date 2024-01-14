@@ -89,6 +89,18 @@
   justify-content: flex-end;
 }
 
+@media screen and (max-width: 990px) {
+  .custom-collection-list .card--standard.card--media .card__inner .card__information {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .custom-collection-list .card--standard.card--media .card__inner .card__information {
+    padding: 40px 30px;
+  }
+}
+
 /* title */
 .collection-list-title {
   margin-bottom: 0px;
