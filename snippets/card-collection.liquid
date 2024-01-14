@@ -45,6 +45,7 @@
       {% if card_collection.featured_image == nil and card_style == 'card' %} ratio{% endif %}
       ratio-mobile-{{ media_aspect_ratio_mobile }}
     "
+      
     style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
   >
     <div
