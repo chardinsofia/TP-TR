@@ -155,12 +155,6 @@
   margin: 4rem 0;
 }
 
-.subtitle-wrapper--self-padded-tablet-down,
-.subtitle-wrapper--self-padded-mobile {
-  padding-left: 16px;
-  padding-right: 16px;
-}
-
 @media screen and (min-width: 990px) {
   .subtitle--primary {
     margin: 2rem 0;
