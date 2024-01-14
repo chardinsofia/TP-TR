@@ -15,6 +15,14 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  
+  @media screen and (max-width: 990px) {
+    .custom-collection-list .card {
+      --ratio-percent: %;
+    }
+  }
+
 {%- endstyle -%}
 
 {%- liquid
@@ -235,6 +243,27 @@
       ],
       "default": "2",
       "label": "t:sections.collection-list.settings.columns_mobile.label"
+    },
+    {
+      "type": "select",
+      "id": "image_ratio_mobile",
+      "options": [
+        {
+          "value": "adapt",
+          "label": "t:sections.collection-list.settings.image_ratio_mobile.options__1.label"
+        },
+        {
+          "value": "portrait",
+          "label": "t:sections.collection-list.settings.image_ratio_mobile.options__2.label"
+        },
+        {
+          "value": "square",
+          "label": "t:sections.collection-list.settings.image_ratio_mobile.options__3.label"
+        }
+      ],
+      "default": "adapt",
+      "label": "t:sections.collection-list.settings.image_ratio_mobile.label",
+      "info": "t:sections.collection-list.settings.image_ratio_mobile.info"
     },
     {
       "type": "range",
