@@ -115,16 +115,11 @@ TODO:
   font-size: inherit;
 }
 
-.subtitle-wrapper {
-  margin-bottom: 3rem;
-}
-
 .subtitle-wrapper-with-link {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   gap: 1rem;
-  margin-bottom: 3rem;
   flex-wrap: wrap;
 }
 
