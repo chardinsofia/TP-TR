@@ -11,6 +11,7 @@ TODO:
 7. review, select and test theme customizer options.
 
 */
+
 /* Display only inner card information */
 .custom-collection-list .card-wrapper .card__content,
 .custom-collection-list .card--standard.card--media .card__inner .card__information .card__caption {
@@ -38,6 +39,23 @@ TODO:
   text-decoration: underline;
   font-weight: 700;
   text-align: left;
+}
+
+/* title */
+.collection-list-title {
+  margin-bottom: 0px;
+  line-height: 27px;
+  font-weight: 700;
+  letter-spacing: 0em;
+}
+
+/* subtitle */
+.collection-list-subtitle {
+  font-family: Montserrat;
+  line-height: 15px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  margin-top: 0px;
 }
 
 /* component-subtitle */
@@ -132,23 +150,11 @@ TODO:
   margin-top: 0;
 }
 
-.collection-list-title {
-  margin-bottom: 0px;
-  line-height: 27px;
-  font-weight: 700;
-  letter-spacing: 0em;
-}
-
-.collection-list-subtitle {
-  font-family: Montserrat;
-  line-height: 15px;
-  font-weight: 400;
-  letter-spacing: 0em;
-  margin-top: 0px;
-}
 .custom-collection-list .card .card__inner {
   background: transparent;
 }
+
+/* Image border radius */
 .custom-collection-list .card .card__inner .card__media.border-radius--0 {
   border-radius: 0px;
 }
