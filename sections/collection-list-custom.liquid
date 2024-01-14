@@ -86,6 +86,7 @@
             {% render 'card-collection',
               card_collection: block.settings.collection,
               media_aspect_ratio: section.settings.image_ratio,
+              media_aspect_ratio_mobile: section.settings.image_ratio_mobile,
               columns: columns,
               placeholder_image: placeholder_image,
               border_radius: section.settings.image_border_radius,
@@ -235,6 +236,27 @@
       ],
       "default": "2",
       "label": "t:sections.collection-list.settings.columns_mobile.label"
+    },
+    {
+      "type": "select",
+      "id": "image_ratio_mobile",
+      "options": [
+        {
+          "value": "adapt",
+          "label": "t:sections.collection-list.settings.image_ratio_mobile.options__1.label"
+        },
+        {
+          "value": "portrait",
+          "label": "t:sections.collection-list.settings.image_ratio_mobile.options__2.label"
+        },
+        {
+          "value": "square",
+          "label": "t:sections.collection-list.settings.image_ratio_mobile.options__3.label"
+        }
+      ],
+      "default": "portrait",
+      "label": "t:sections.collection-list.settings.image_ratio_mobile.label",
+      "info": "t:sections.collection-list.settings.image_ratio_mobile.info"
     },
     {
       "type": "range",
