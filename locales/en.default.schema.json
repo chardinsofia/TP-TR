@@ -682,8 +682,8 @@
         "swipe_everywhere": {
           "label": "Enable swipe everywhere"
         },
-        "show_buttons_slider": {
-          "label": "Show slider buttons"
+        "hide_buttons_slider": {
+          "label": "Hide slider buttons"
         }
       },
       "blocks": {
