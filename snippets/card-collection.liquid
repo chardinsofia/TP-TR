@@ -9,6 +9,7 @@
   - wrapper_class: {String} Wrapper class for card (optional)
   - placeholder_image: {String} Placeholder image when collection is empty (optional)
   - border_radius: {Number}
+  - border_radius_mobile: {Number}
 
   Usage:
   {% render 'card-collection' %}
@@ -49,7 +50,7 @@
       style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
     >
       {%- if card_collection.featured_image -%}
-        <div class="card__media border-radius--{{ border_radius }}">
+        <div class="card__media border-radius--{{ border_radius }} border-radius--{{ border_radius_mobile }}-mobile">
           <div class="media media--transparent media--hover-effect">
             <img
               srcset="
