@@ -1,17 +1,3 @@
-/* 
-
-TODO: 
-
-1. take action to avoid the use of !important ___ DONE
-2. create @media with font-sizes, check margins, paddings, empty space and dimensions.
-3. add padding to <p>
-4. activate slider in desktop ___ DONE using slider__everywhere (CHECK IF CLICKING CAN SLIDE OR ONLY WITH BUTTONS)
-5. hide buttons (ONLY ON MOBILE FOR NOW, CHECK NUMBERS DISPLAY ON DESKTOP)
-6. review styling and structure (MAYBE IS BETTER TO USE JUST ONE CUSTOM SECTION AND PLAY WITH CONTROLS IN THEME CUSTOMIZER, ADD OPTIONS TO IMPLEMENT THIS DESIGNS)
-7. review, select and test theme customizer options.
-
-*/
-
 /* Font */
 .custom-collection-list .card--standard.card--media .card__inner .card__information .card__heading {
   font-family: Montserrat;
@@ -77,13 +63,14 @@ TODO:
   }
 }
 
-/* Page width */
+/* Page width - Show content full width */
 
 .page-width, .page-width-desktop {
   max-width: 100%;
 }
 
 /* Display only inner card information */
+
 .custom-collection-list .card-wrapper .card__content,
 .custom-collection-list .card--standard.card--media .card__inner .card__information .card__caption {
   display: none;
