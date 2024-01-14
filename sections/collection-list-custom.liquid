@@ -88,7 +88,8 @@
               media_aspect_ratio: section.settings.image_ratio,
               columns: columns,
               placeholder_image: placeholder_image,
-              border_radius: section.settings.image_border_radius
+              border_radius: section.settings.image_border_radius,
+              border_radius_mobile: section.settings.image_border_radius_mobile
             %}
           </li>
         {%- endfor -%}
@@ -188,9 +189,9 @@
       "type": "range",
       "id": "image_border_radius",
       "min": 0,
-      "max": 20,
-      "step": 1,
-      "default": 8,
+      "max": 32,
+      "step": 4,
+      "default": 20,
       "label": "t:sections.collection-list.settings.image_border_radius.label"
     },
     {
@@ -234,6 +235,15 @@
       ],
       "default": "2",
       "label": "t:sections.collection-list.settings.columns_mobile.label"
+    },
+    {
+      "type": "range",
+      "id": "image_border_radius_mobile",
+      "min": 0,
+      "max": 32,
+      "step": 4,
+      "default": 8,
+      "label": "t:sections.collection-list.settings.image_border_radius.label"
     },
     {
       "type": "header",
