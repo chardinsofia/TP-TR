@@ -43,7 +43,7 @@
     margin-bottom: 10px;
   }
 
-  .title-wrapper-with-link, .subtitle-wrapper-with-link {
+  .title-wrapper-with-link, .subtitle-wrapper--self-padded-mobile, .subtitle-wrapper-with-link {
     padding-left: 16px;
     padding-right: 16px;
   }
