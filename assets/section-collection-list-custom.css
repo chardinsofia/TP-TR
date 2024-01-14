@@ -2,7 +2,7 @@
 
 TODO: 
 
-1. take action to avoid the use of !important
+1. take action to avoid the use of !important ___ DONE
 2. create @media with font-sizes, check margins, paddings, empty space and dimensions.
 3. add padding to <p>
 4. activate slider in desktop ___ DONE using slider__everywhere (CHECK IF CLICKING CAN SLIDE OR ONLY WITH BUTTONS)
@@ -38,6 +38,10 @@ TODO:
   text-decoration: underline;
   font-weight: 700;
   text-align: left;
+}
+
+.subtitle-wrapper-with-link {
+  margin: 3rem 0 2rem;
 }
 
 .collection-list-title {
