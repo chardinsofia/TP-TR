@@ -664,6 +664,18 @@
             "label": "2 columns"
           }
         },
+        "image_ratio_mobile": {
+          "label": "Image ratio",
+          "options__1": {
+            "label": "Adapt to image"
+          },
+          "options__2": {
+            "label": "Portrait"
+          },
+          "options__3": {
+            "label": "Square"
+          }
+        },
         "header_slider": {
           "content": "Slider"
         },
