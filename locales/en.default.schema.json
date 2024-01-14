@@ -679,9 +679,6 @@
         "swipe_on_mobile": {
           "label": "Enable swipe only on mobile"
         },
-        "swipe_everywhere": {
-          "label": "Enable swipe everywhere"
-        },
         "hide_buttons_slider": {
           "label": "Hide slider buttons"
         }
