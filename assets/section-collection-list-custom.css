@@ -9,7 +9,7 @@
   letter-spacing: 0em;
   text-align: left;
 }
- 
+
 .collection-list-title {
   font-family: Playfair Display;
   font-size: 20px;
@@ -175,90 +175,80 @@
 }
 
 /* Image border radius */
-.custom-collection-list .card .card__inner .card__media.border-radius--0 {
-  border-radius: 0px;
+@media screen and (max-width: 990px) {
+  .custom-collection-list .card .card__inner .card__media.border-radius--0-mobile {
+    border-radius: 0px;
+  }
+  
+  .custom-collection-list .card .card__inner .card__media.border-radius--4-mobile {
+    border-radius: 4px;
+  }
+  
+  .custom-collection-list .card .card__inner .card__media.border-radius--8-mobile {
+    border-radius: 8px;
+  }
+  
+  .custom-collection-list .card .card__inner .card__media.border-radius--12-mobile {
+    border-radius: 12px;
+  }
+  
+  .custom-collection-list .card .card__inner .card__media.border-radius--16-mobile {
+    border-radius: 16px;
+  }
+  
+  .custom-collection-list .card .card__inner .card__media.border-radius--20-mobile {
+    border-radius: 20px;
+  }
+  
+  .custom-collection-list .card .card__inner .card__media.border-radius--24-mobile {
+    border-radius: 24px;
+  }
+  
+  .custom-collection-list .card .card__inner .card__media.border-radius--28-mobile {
+    border-radius: 28px;
+  }
+  
+  .custom-collection-list .card .card__inner .card__media.border-radius--32-mobile {
+    border-radius: 32px;
+  }
 }
-
-.custom-collection-list .card .card__inner .card__media.border-radius--1 {
-  border-radius: 1px;
+@media screen and (min-width: 990px) {
+  .custom-collection-list .card .card__inner .card__media.border-radius--0 {
+    border-radius: 0px;
+  }
+  
+  .custom-collection-list .card .card__inner .card__media.border-radius--4 {
+    border-radius: 4px;
+  }
+  
+  .custom-collection-list .card .card__inner .card__media.border-radius--8 {
+    border-radius: 8px;
+  }
+  
+  .custom-collection-list .card .card__inner .card__media.border-radius--12 {
+    border-radius: 12px;
+  }
+  
+  .custom-collection-list .card .card__inner .card__media.border-radius--16 {
+    border-radius: 16px;
+  }
+  
+  .custom-collection-list .card .card__inner .card__media.border-radius--20 {
+    border-radius: 20px;
+  }
+  
+  .custom-collection-list .card .card__inner .card__media.border-radius--24 {
+    border-radius: 24px;
+  }
+  
+  .custom-collection-list .card .card__inner .card__media.border-radius--28 {
+    border-radius: 28px;
+  }
+  
+  .custom-collection-list .card .card__inner .card__media.border-radius--32 {
+    border-radius: 32px;
+  }
 }
-
-.custom-collection-list .card .card__inner .card__media.border-radius--2 {
-  border-radius: 2px;
-}
-
-.custom-collection-list .card .card__inner .card__media.border-radius--3 {
-  border-radius: 3px;
-}
-
-.custom-collection-list .card .card__inner .card__media.border-radius--4 {
-  border-radius: 4px;
-}
-
-.custom-collection-list .card .card__inner .card__media.border-radius--5 {
-  border-radius: 5px;
-}
-
-.custom-collection-list .card .card__inner .card__media.border-radius--6 {
-  border-radius: 6px;
-}
-
-.custom-collection-list .card .card__inner .card__media.border-radius--7 {
-  border-radius: 7px;
-}
-
-.custom-collection-list .card .card__inner .card__media.border-radius--8 {
-  border-radius: 8px;
-}
-
-.custom-collection-list .card .card__inner .card__media.border-radius--9 {
-  border-radius: 9px;
-}
-
-.custom-collection-list .card .card__inner .card__media.border-radius--10 {
-  border-radius: 10px;
-}
-
-.custom-collection-list .card .card__inner .card__media.border-radius--11 {
-  border-radius: 11px;
-}
-
-.custom-collection-list .card .card__inner .card__media.border-radius--12 {
-  border-radius: 12px;
-}
-
-.custom-collection-list .card .card__inner .card__media.border-radius--13 {
-  border-radius: 13px;
-}
-
-.custom-collection-list .card .card__inner .card__media.border-radius--14 {
-  border-radius: 14px;
-}
-
-.custom-collection-list .card .card__inner .card__media.border-radius--15 {
-  border-radius: 15px;
-}
-
-.custom-collection-list .card .card__inner .card__media.border-radius--16 {
-  border-radius: 16px;
-}
-
-.custom-collection-list .card .card__inner .card__media.border-radius--17 {
-  border-radius: 17px;
-}
-
-.custom-collection-list .card .card__inner .card__media.border-radius--18 {
-  border-radius: 18px;
-}
-
-.custom-collection-list .card .card__inner .card__media.border-radius--19 {
-  border-radius: 19px;
-}
-
-.custom-collection-list .card .card__inner .card__media.border-radius--20 {
-  border-radius: 20px;
-}
-
 /* Columns size on desktop */
 
 @media screen and (min-width: 990px) {
