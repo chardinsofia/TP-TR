@@ -664,6 +664,9 @@
             "label": "2 columns"
           }
         },
+        "image_border_radius_mobile": {
+          "label": "Image border radius on mobile"
+        },
         "image_ratio_mobile": {
           "label": "Image ratio on mobile",
           "options__1": {
