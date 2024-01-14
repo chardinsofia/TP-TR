@@ -3,16 +3,16 @@
     "collection_list_custom_fphVEL": {
       "type": "collection-list-custom",
       "blocks": {
-        "featured_collection_cpiG6m": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "beds"
-          }
-        },
         "featured_collection_Xadjh7": {
           "type": "featured_collection",
           "settings": {
             "collection": "sofas"
+          }
+        },
+        "featured_collection_cpiG6m": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "beds"
           }
         },
         "featured_collection_Me3thX": {
@@ -29,8 +29,8 @@
         }
       },
       "block_order": [
-        "featured_collection_cpiG6m",
         "featured_collection_Xadjh7",
+        "featured_collection_cpiG6m",
         "featured_collection_Me3thX",
         "featured_collection_JM6rpP"
       ],
