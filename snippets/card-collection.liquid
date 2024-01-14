@@ -16,6 +16,15 @@
   {% render 'card-collection' %}
 {% endcomment %}
 
+{%- style -%}
+@media screen and (max-width: 990px) {
+  .ratio-mobile-adapt, .ratio-mobile-adapt .card__inner {
+    --ratio-percent: {{ 1 | divided_by: card_collection.featured_image.aspect_ratio | times: 100 }}% !important;
+  }
+}
+
+{%- endstyle -%}
+
 {%- liquid
   assign ratio = 1
   if card_collection.featured_image and media_aspect_ratio == 'portrait'
