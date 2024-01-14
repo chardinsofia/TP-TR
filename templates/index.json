@@ -49,9 +49,60 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "collection_list_slider_FRQjB8": {
+      "type": "collection-list-slider",
+      "blocks": {
+        "featured_collection_WkDeXj": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "natural"
+          }
+        },
+        "featured_collection_YdgWfV": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "grey"
+          }
+        },
+        "featured_collection_KqjXcy": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "off-white"
+          }
+        },
+        "featured_collection_97a7Ab": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "blue"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_WkDeXj",
+        "featured_collection_YdgWfV",
+        "featured_collection_KqjXcy",
+        "featured_collection_97a7Ab"
+      ],
+      "settings": {
+        "title": "Collections Slider",
+        "heading_size": "h1",
+        "subtitle": "Great! Explore the collections slider",
+        "subheading_size": "h2",
+        "image_ratio": "adapt",
+        "image_border_radius": 8,
+        "columns_desktop": 2,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "collection_list_custom_fphVEL"
+    "collection_list_custom_fphVEL",
+    "collection_list_slider_FRQjB8"
   ]
 }
