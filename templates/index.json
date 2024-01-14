@@ -95,7 +95,8 @@
         "color_scheme": "",
         "show_view_all": false,
         "columns_mobile": "2",
-        "swipe": true,
+        "swipe": "swipe_everywhere",
+        "hide_buttons_slider": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
