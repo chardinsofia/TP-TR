@@ -11,7 +11,7 @@ TODO:
 7. review, select and test theme customizer options.
 
 */
-
+/* Display only inner card information */
 .custom-collection-list .card-wrapper .card__content,
 .custom-collection-list .card--standard.card--media .card__inner .card__information .card__caption {
   display: none;
@@ -40,8 +40,96 @@ TODO:
   text-align: left;
 }
 
+/* component-subtitle */
+.subtitle,
 .subtitle-wrapper-with-link {
   margin: 3rem 0 2rem;
+}
+
+.subtitle-wrapper-with-link .title {
+  margin: 0;
+}
+
+.subtitle .link {
+  font-size: inherit;
+}
+
+.subtitle-wrapper {
+  margin-bottom: 3rem;
+}
+
+.subtitle-wrapper-with-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 1rem;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+.subtitle--primary {
+  margin: 4rem 0;
+}
+
+.subtitle-wrapper--self-padded-tablet-down,
+.subtitle-wrapper--self-padded-mobile {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media screen and (min-width: 750px) {
+  .subtitle-wrapper--self-padded-mobile {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .subtitle,
+  .subtitle-wrapper-with-link {
+    margin: 5rem 0 3rem;
+  }
+
+  .subtitle--primary {
+    margin: 2rem 0;
+  }
+
+  .subtitle-wrapper-with-link {
+    align-items: center;
+  }
+
+  .subtitle-wrapper-with-link .title {
+    margin-bottom: 0;
+  }
+
+  .subtitle-wrapper--self-padded-tablet-down {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.subtitle-wrapper-with-link .link-with-icon {
+  margin: 0;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
+.subtitle-wrapper-with-link .link-with-icon svg {
+  width: 1.5rem;
+}
+
+.subtitle-wrapper-with-link a {
+  margin-top: 0;
+  flex-shrink: 0;
+}
+
+.subtitle-wrapper--no-top-margin {
+  margin-top: 0;
+}
+
+.subtitle-wrapper--no-top-margin > .title {
+  margin-top: 0;
 }
 
 .collection-list-title {
