@@ -100,7 +100,6 @@
   .title-wrapper-with-link, .subtitle-wrapper-with-link {
     padding-left: 16px;
     padding-right: 16px;
-    margin: 0;
   }
 
   .custom-collection-list.slider {
@@ -176,6 +175,7 @@
   .title-wrapper-with-link, .subtitle-wrapper-with-link {
     padding-left: 80px;
     padding-right: 80px;
+    margin: 0;
   }
   .section-collection-list .collection-list:not(.slider) {
     padding-left: 75px;
